@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 247, 144) , rgba(0, 0, 0, 0.705));
+    color: white;
+    margin: auto;
+    padding: 15px;
+    
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf);
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    width: 35%;
+    margin: 0 auto;
+    padding: 0;
+}
+article > p {
+    text-indent: 25px;
+}
+
+main > h1,h2  {
+    background-image: linear-gradient(to right, rgb(62, 167, 132), white);
+    text-align: center;
+    font-family: "Android";
+    color: green;
+    margin: 0;
+}
+main > p {
+    text-indent: 25px;
+    margin: 10px;
+}
+main > img, iframe {
+    display: block;
+    margin: 0 auto;
+}
+.video {
+    background-color: green;
+    margin: 0;
+    padding: 15px;
+}
+main > article {
+    background-color: aquamarine;
+    margin: auto;
+    width: 95%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.473);
+}
+article > h3 {
+    background-color: rgb(1, 189, 1);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+article > ul {
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
